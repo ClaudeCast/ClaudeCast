@@ -51,6 +51,19 @@ interface EmptyStateProps {
   };
 }
 
+interface GeneratePodcastProps {
+  setAudio: Dispatch<SetStateAction<string>>;
+  voiceType: string;
+  voicePrompt: string;
+  setVoicePrompt: Dispatch<SetStateAction<string>>;
+  audio: string;
+  setAudioStorageId: (id: string) => void;
+  setAudioDuration: Dispatch<SetStateAction<number>>;
+  onGenerationStart?: () => void;
+  onGenerationComplete?: () => void;
+  showEditSection?: boolean;
+}
+
 interface PodcastCreatorProps {
   audio: {
     url: string;
@@ -134,4 +147,20 @@ interface CarouselControlProps {
   currentIndex: number;
   snapPoints: number[];
   onSnapToPoint: (index: number) => void;
+}
+
+export type {
+  User,
+  Podcast,
+  EmptyStateProps,
+  PodcastCreatorProps,
+  ThumbnailGeneratorProps,
+  PodcastCardProps,
+  PodcastPlayerProps,
+  AudioPlayerContextState,
+  LoadingContextState,
+  CarouselProps,
+  ProfileProps,
+  CarouselControlProps,
+  GeneratePodcastProps
 }

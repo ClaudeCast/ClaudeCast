@@ -24,12 +24,12 @@ export const sidebarLinks = [
 export const socialLinks = [
   {
     imgURL: "https://iili.io/2Z2Aijs.md.png",
-    href: "https://github.com/danielhiji/SynthcastAI",
+    href: "https://github.com/danielhiji/EchoForgeAI",
     label: "GitHub",
   },
   {
     imgURL: "https://iili.io/2Lh8XVa.png",
-    href: "https://x.com/synthcastai",
+    href: "https://x.com/EchoForgeAI",
     label: "Twitter",
   },
   {
@@ -43,25 +43,31 @@ export const voiceDetails = [
   {
     id: 1,
     name: "alloy",
+    description: "Versatile neutral voice suitable for most content",
   },
   {
     id: 2,
     name: "echo",
+    description: "Deep and resonant voice for serious topics",
   },
   {
     id: 3,
     name: "fable",
+    description: "Warm voice ideal for storytelling content",
   },
   {
     id: 4,
     name: "onyx",
+    description: "Authoritative voice perfect for informative podcasts",
   },
   {
     id: 5,
     name: "nova",
+    description: "Energetic voice for engaging and dynamic content",
   },
   {
     id: 6,
     name: "shimmer",
+    description: "Clear, bright voice for educational content",
   },
 ];

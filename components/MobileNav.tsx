@@ -40,7 +40,7 @@ const MobileNav = () => {
               />
             </div>
             <h1 className="text-2xl font-extrabold bg-gradient-to-r from-cyan-400 to-cyan-200 bg-clip-text text-transparent">
-              SynthcastAI
+              EchoForgeAI
             </h1>
           </Link>
           <div className="flex h-[calc(100vh-72px)] flex-col justify-between overflow-y-auto">
@@ -56,8 +56,8 @@ const MobileNav = () => {
                           href={route} 
                           className={cn(
                             "flex items-center gap-3 rounded-xl px-4 py-3 transition-all duration-300",
-                            "hover:bg-black-4/50",
-                            isActive && "bg-gradient-to-r from-[--accent-color]/10 to-purple-500/10 border border-[--accent-color]/20"
+                            "hover:bg-black-4/60",
+                            isActive && "bg-gradient-to-r from-[--accent-color]/15 to-purple-500/15 border border-[--accent-color]/25"
                           )}
                         >
                           <div className={cn(

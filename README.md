@@ -1,33 +1,35 @@
 <div align="center">
-  <img src="synthcasttransparentlogo.png" alt="SynthcastAI Logo" width="200"/>
+  <img src="echoforge_logo.png" alt="Echoforge Logo" width="200"/>
 
 
-  # SynthcastAI - AI-Powered Podcast Creation Platform
+  # EchoForge - AI-Powered Podcast Creation Platform
 
-  [![Next.js](https://img.shields.io/badge/Next.js-14.0-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
+  [![Next.js](https://img.shields.io/badge/Next.js-14.2-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
   [![TypeScript](https://img.shields.io/badge/TypeScript-5.3-blue?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
-  <p>Create and generate AI-powered podcasts with customizable voices and automated content generation</p>
+  <p>Create and publish AI-generated podcasts with customizable voices and automated content generation</p>
 </div>
 
-## Relevant Links
+## Overview
 
-- $CAST: 
-- Website: https://synthcastai.com
-- Twitter: https://x.com/synthcastai
+EchoForge is a powerful platform that allows users to create professional-quality podcasts using AI. The platform leverages OpenAI's latest models to generate engaging content, convert text to lifelike speech, and create custom podcast artwork.
+- **$FORGE CA:**
+- **Twitter:** [https://x.com/echoforgeai](https://x.com/echoforgeai)
 
 ## Features
 
-- 🎙️ AI Voice Generation with multiple voice options (alloy, shimmer, nova, echo, fable, onyx)
-- 🤖 GPT-4 powered content generation
-- 🎨 AI Image generation for podcast thumbnails
+- 🎙️ High-definition AI voice generation with premium voice options (alloy, shimmer, nova, echo, fable, onyx)
+- 🤖 GPT-4o powered intelligent content generation with proper podcast scripting
+- 🎨 AI Image generation for stunning podcast thumbnails (DALL-E 3)
 - 🎵 Interactive audio player with progress tracking
 - 🔍 Advanced podcast search and discovery
-- 📱 Responsive design across all devices
+- 📱 Fully responsive design across all devices
+- 🤝 Automated metadata generation with titles and descriptions
+- 🔄 Streamlined publishing workflow
 
 ## Tech Stack
 
 ### Frontend
-- Next.js 14
+- Next.js 14.2
 - TypeScript
 - Tailwind CSS
 - Framer Motion
@@ -36,8 +38,8 @@
 - Uploadstuff
 
 ### Backend
-- OpenAI API (GPT-4, TTS)
-- Convex Database
+- OpenAI API (GPT-4o, TTS-1-HD, DALL-E 3)
+- Convex Database & Storage
 - Node.js
 
 ## Getting Started
@@ -45,27 +47,59 @@
 1. Clone the repository:
 
     ```console
-    git clone https://github.com/yourusername/synthcast-ai.git
-    cd synthcast-ai
+    git clone https://github.com/dmitrithegoat/echoforgeai.git
+    cd echoforgeai
     ```
 
 2. Install dependencies:
 
     ```console
-    npm install
+    pnpm install
     ```
 
-3. Set up environment variables:
+3. Set up environment variables in `.env.local`:
 
-    ```console
+    ```
     OPENAI_API_KEY=your_openai_api_key
     NEXT_PUBLIC_CONVEX_URL=your_convex_url
     ```
 
-4. Run the development server:
+4. Start the Convex development server:
 
     ```console
-    npm run dev
+    pnpm convex
+    ```
+
+5. In a new terminal, start the Next.js development server:
+
+    ```console
+    pnpm dev
+    ```
+
+6. Open [http://localhost:3000](http://localhost:3000) in your browser to see the application.
+
+## Deployment
+
+1. Deploy the Convex backend:
+
+    ```console
+    pnpm convex:deploy
+    ```
+
+2. Build the Next.js application:
+
+    ```console
+    pnpm build
+    ```
+
+3. Deploy to your hosting platform of choice (Vercel recommended):
+
+    ```console
+    # If using Vercel
+    vercel
+    
+    # For production deployment
+    vercel --prod
     ```
 
 ## Project Structure
@@ -77,6 +111,11 @@
 - `/hooks` - Custom React hooks
 - `/providers` - React context providers
 - `/constants` - Application constants and configurations
+- `/types` - TypeScript type definitions
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## License
 
