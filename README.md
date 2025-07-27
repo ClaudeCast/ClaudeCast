@@ -12,7 +12,7 @@
 ## Overview
 
 EchoForge is a powerful platform that allows users to create professional-quality podcasts using AI. The platform leverages OpenAI's latest models to generate engaging content, convert text to lifelike speech, and create custom podcast artwork.
-- **$FORGE CA:**
+- **$FORGE CA:** 65JFYzMa5jkTm6eQ4qLez2YGc5MEJafosAmWZ4Rfpump
 - **Twitter:** [https://x.com/echoforgeai](https://x.com/echoforgeai)
 
 ## Features
