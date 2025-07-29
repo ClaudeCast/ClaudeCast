@@ -1,8 +1,8 @@
 <div align="center">
-  <img src="echoforge_logo.png" alt="Echoforge Logo" width="200"/>
+  <img src="claudecast_logo.png" alt="Synthcast Logo" width="200"/>
 
 
-  # EchoForge - AI-Powered Podcast Creation Platform
+  # ClaudeCast - AI-Powered Podcast Creation Platform
 
   [![Next.js](https://img.shields.io/badge/Next.js-14.2-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
   [![TypeScript](https://img.shields.io/badge/TypeScript-5.3-blue?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
@@ -11,9 +11,9 @@
 
 ## Overview
 
-EchoForge is a powerful platform that allows users to create professional-quality podcasts using AI. The platform leverages OpenAI's latest models to generate engaging content, convert text to lifelike speech, and create custom podcast artwork.
-- **$FORGE CA:** 65JFYzMa5jkTm6eQ4qLez2YGc5MEJafosAmWZ4Rfpump
-- **Twitter:** [https://x.com/echoforgeai](https://x.com/echoforgeai)
+ClaudeCast is a powerful platform that allows users to create professional-quality podcasts using AI. The platform leverages OpenAI's latest models to generate engaging content, convert text to lifelike speech, and create custom podcast artwork.
+
+- Twitter: https://x.com/claudecastai
 
 ## Features
 
@@ -47,8 +47,8 @@ EchoForge is a powerful platform that allows users to create professional-qualit
 1. Clone the repository:
 
     ```console
-    git clone https://github.com/dmitrithegoat/echoforgeai.git
-    cd echoforgeai
+    git clone https://github.com/yourusername/claudecast-ai.git
+    cd claudecast-ai
     ```
 
 2. Install dependencies:

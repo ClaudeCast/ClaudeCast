@@ -24,12 +24,12 @@ export const sidebarLinks = [
 export const socialLinks = [
   {
     imgURL: "https://iili.io/2Z2Aijs.md.png",
-    href: "https://github.com/danielhiji/EchoForgeAI",
+    href: "https://github.com/danielhiji/ClaudeCastAI",
     label: "GitHub",
   },
   {
     imgURL: "https://iili.io/2Lh8XVa.png",
-    href: "https://x.com/EchoForgeAI",
+    href: "https://x.com/ClaudeCastAI",
     label: "Twitter",
   },
   {

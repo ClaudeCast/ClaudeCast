@@ -15,17 +15,17 @@ import { Analytics } from '@vercel/analytics/next';
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "EchoForge - AI-Powered Podcast Creation",
+  title: "ClaudeCast - AI-Powered Podcast Creation",
   description: "Create professional podcasts with AI voices and automated content generation",
   icons: {
     icon: '/icons/miclogo.svg'
   },
   authors: [
-    { name: "EchoForge Team" }
+    { name: "ClaudeCast Team" }
   ],
   keywords: ["podcast", "ai", "artificial intelligence", "audio", "content creation", "text-to-speech"],
   openGraph: {
-    title: "EchoForge - AI-Powered Podcast Creation",
+    title: "ClaudeCast - AI-Powered Podcast Creation",
     description: "Create professional podcasts with AI voices and automated content generation",
     type: "website"
   }

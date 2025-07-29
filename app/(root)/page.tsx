@@ -78,7 +78,7 @@ const Home = () => {
           viewport={{ once: true }}
           className="max-w-7xl mx-auto mb-12 text-center"
         >
-          <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">Why Choose EchoForge</h2>
+          <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">Why Choose ClaudeCast</h2>
           <p className="text-white-2 max-w-2xl mx-auto">Our AI-powered platform provides everything you need to create professional podcasts without expensive equipment or technical expertise.</p>
         </motion.div>
 

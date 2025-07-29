@@ -40,7 +40,7 @@ const MobileNav = () => {
               />
             </div>
             <h1 className="text-2xl font-extrabold bg-gradient-to-r from-cyan-400 to-cyan-200 bg-clip-text text-transparent">
-              EchoForgeAI
+              ClaudeCastAI
             </h1>
           </Link>
           <div className="flex h-[calc(100vh-72px)] flex-col justify-between overflow-y-auto">

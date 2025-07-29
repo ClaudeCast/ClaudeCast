@@ -35,7 +35,7 @@ const LeftSidebar = () => {
             />
           </div>
           <h1 className="text-2xl font-extrabold bg-gradient-to-r from-cyan-400 to-cyan-200 bg-clip-text text-transparent">
-            EchoForgeAI
+            ClaudeCastAI
           </h1>
         </Link>
 
